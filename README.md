@@ -12,7 +12,7 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants :
 - Kibana
 - Keycloak
 
-## Configuration
+### Configuration
 
 1. Cloner ce dépôt sur votre machine locale :
 
@@ -29,13 +29,13 @@ Accéder à l'interface keycloak à l'adresse suivante :
 http://localhost:8080
 Faire les configurations necessaires( creation du realm, du client et de ses roles, creation de l'user et ses roles, generation du token pour ce user via postman
 a travers l'url http://localhost:8080/realms/nom_du_realm/protocol/openid-connect/token avec le verbe post)
-## Utilisation
+#### Utilisation
 
 L'application Spring Boot fonctionnera à l'adresse http://localhost:8081/etudiant/*.
 Les logs seront disponibles dans Kibana à l'adresse http://localhost:5601.
 L'interface d'administration de Keycloak sera accessible à l'adresse http://localhost:8080/admin.
 
-## Apercu sur image
+##### Apercu sur image
 Keycloak-dashboad
 <img width="955" alt="keycloak-dashboad" src="https://github.com/mct200/springbootKeycloakELK/assets/97558185/24eee065-13f4-48a4-9a01-afb235e2e28f">
 
